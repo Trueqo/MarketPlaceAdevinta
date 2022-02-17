@@ -7,9 +7,12 @@
     background-color: rgb(182, 184, 197);
     
 }
+.titleSearch{
+    color: white;
+}
 
 .rowSuperior{
-    background-color: red;
+    
     padding-left: 4rem;
 }
 
