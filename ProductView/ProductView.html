@@ -12,24 +12,40 @@
 </head>
 <body>
 
-    <div class="container">
-        <div class="row">
-            <h1>Hola</h1>
+    <div class="container contProduct">
+        <div class="ProdctName">
+            <h1>Product Name</h1>
         </div>
-        <div class="container product d-flex flex-wrap gap-3 col-12">
-            <div class="row col-12 col-md-6">
-                <div class="imgProduct col">
-                    <img src="https://cdn.pixabay.com/photo/2016/08/11/08/43/potatoes-1585060_960_720.jpg" alt="">
-                </div>
+        <div class="product">
+            <div class="imgProduct d-flex justify-content-center">
+                <img src="https://cdn.pixabay.com/photo/2016/08/11/08/43/potatoes-1585060_960_720.jpg" alt="" class="img-fluid"> 
             </div>
-            <div class="row col-12 col-md-6">
-                <div class="InfoProduct col">
-                    <h2></h2>
-                    <span class="units"></span>
-                    <div class="addItems">
-    
-                        <button>Buy Now</button>
-                        <button>Add</button>
+            <div class="InfoProduct d-flex justify-content-center flex-column p-5">
+                <h2 class="price">$200 / kg</h2>
+                <div class="dataCard d-flex justify-content-between gap-4 m-auto">
+                    <span><i class="fa-solid fa-location-dot iconStyle"></i> Location</span>
+                    <span><i class="fa-solid fa-clock iconStyle"></i> 6 Days ago</span>
+                </div>
+                <span class="units"></span>
+                <div class="addItems d-flex flex-column gap-3 mt-4 m-auto">
+                    <div class="carShopAdd d-flex gap-3 align-items-center">
+                        <span class="sum">+</span>
+                        <span class="countItem px-2">0</span>
+                        <span class="rest">-</span>
+                    </div>
+                    <button class="btnProGreen border-0">Buy Now</button>
+                    <button class="btnProOrange border-0">Add</button>
+                </div>
+                <div class="infoCard">
+                    <h2>Description</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga deserunt blanditiis a ex delectus enim atque commodi ratione perspiciatis ipsam.</p>
+                    <div class="contact d-flex justify-content-between m-auto flex-wrap gap-4">
+                        <span><i class="fa-solid fa-user contactIcon pe-2"></i> Alex M.</span>
+                        <div class="iconCont d-flex align-items-center gap-4">
+                            <i class="fa-solid fa-phone-flip contactIcon"></i>
+                            <i class="fa-solid fa-envelope contactIcon"></i>
+                        </div>
+
                     </div>
                 </div>
             </div>
