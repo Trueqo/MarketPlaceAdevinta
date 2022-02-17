@@ -7,14 +7,36 @@
   --green70: #00be65b2;
   --orange: #fa6f21;
 }
+.favIcon{
+  color: var(--blue30);
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.favIcon:hover{
+  color: #00be65;
+}
+.ProdctName h1{
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+}
 .imgProduct img {
   max-width: 600px;
   border-radius: 0.5rem;
+}
+.price{ /* h2 */
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 .product {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
+}
+.iconProduct{
+  color: var(--orange);
+  font-size: 1.2rem;
+  padding-right: 0.5rem;
 }
 .sum,
 .rest,
@@ -34,6 +56,7 @@
 .rest:hover {
   background-color: var(--blue30);
   color: var(--blue);
+  cursor: pointer;
 }
 .InfoProduct {
   -webkit-box-shadow: 0px 5px 15px -1px rgba(0, 0, 0, 0.62);
@@ -45,6 +68,36 @@
 }
 .contactIcon {
   font-size: 2rem;
+  color: var(--blue);
+  cursor: pointer;
+}
+.iconCont .contactIcon:hover {
+  color: var(--orange);
+}
+.btnProGreen{
+  background-color: var(--green);
+}
+.btnProOrange{
+  background-color: var(--orange);
+}
+.btnProGreen , .btnProOrange{
+  color: var(--white);
+  padding: .5rem 1rem;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.btnProGreen:hover {
+  background-color: var(--green70);
+  color: var(--blue);
+}
+.btnProOrange:hover{
+  background-color: #fa7121cb;
+  color: var(--blue);
+}
+.infoCard h2{ /* h2 */
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 @media (max-width: 992px) {
   .imgProduct img {
@@ -65,7 +118,7 @@
     width: 400px;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 412px) {
   .imgProduct img {
     width: 280px;
     height: 300px;
