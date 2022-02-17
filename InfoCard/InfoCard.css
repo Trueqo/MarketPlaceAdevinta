@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --blue: #0a123e;
+  --blue30: #0a123e62;
+  --white: #ffffff;
+  --white50: #ffffff85;
+  --green: #00be65;
+  --green70: #00be65b2;
+  --orange: #fa6f21;
+}
+.cardBgInfo {
+  background-color: var(--green);
+  color: var(--white);
+  border-radius: .5rem;
+}
+.btnInfo{
+    background-color: var(--white);
+    color: var(--blue);
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: 2rem;
+}
+.decIcon{
+    background-color: var(--white50);
+    border-radius: 2rem 0 .5rem 0;
+    width: 5rem;
+    height: 5rem;
+}
+
+.iconInfo{
+    font-size: 2rem;
+    width: max-content;
+    height: 100%;
+}

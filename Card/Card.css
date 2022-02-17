@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+:root {
+  --blue: #0a123e;
+  --blue30: #0a123e62;
+  --white: #ffffff;
+  --white50: #ffffff85;
+  --green: #00be65;
+  --green70: #00be65b2;
+  --orange: #fa6f21;
+}
+.cardAnim:hover {
+  transform: scale(1.1);
+}
+.card-title {
+  font-size: 1.5rem;
+}
+.btnBuy {
+  background-color: var(--green) !important;
+  color: var(--white) !important;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 2rem !important;
+}
+.btnBuy:hover {
+  background-color: var(--green70) !important;
+}
+.icon span {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.iconStyle {
+  color: var(--orange);
+  font-size: 1rem;
+  padding-right: 0.5rem;
+}

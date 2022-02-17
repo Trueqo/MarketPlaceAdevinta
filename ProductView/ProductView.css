@@ -1,0 +1,15 @@
+
+.imgProduct img{
+    max-width: 600px;
+}
+
+.InfoProduct{
+    background-color: aqua;
+    border-radius: 0.5rem;
+
+}
+@media (max-width:992) {
+    .imgProduct img{
+        max-width: 500px;
+    }
+}
