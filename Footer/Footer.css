@@ -1,0 +1,68 @@
+.container-fluid{
+    background-color: rgb(10, 18, 62);
+    
+}
+
+
+
+
+
+
+.colFila1{
+    
+    padding: 0!important;
+    margin: 0px !important;
+    text-align: center;
+    
+}
+
+.logo{
+    color: white;
+    font-size: 4.5rem;
+    margin-bottom: 2rem;
+}
+
+.fila1{
+    padding: 1rem;
+    margin: 0rem 5rem 0rem 5rem;
+    border-bottom: 1px white solid;
+}
+
+
+
+.contImg{
+    
+    width: 5rem;
+    height: 5rem;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgFont{
+    font-size: 4rem;
+}
+
+.info{
+    margin-bottom: 0;
+    padding-top: 1rem;
+    color: white;
+}
+
+
+
+
+
+.copyRights{
+    line-height: 10rem;
+    
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
