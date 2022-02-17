@@ -1,0 +1,39 @@
+.padre{
+    width: 100%;
+    height: 20vh;
+}
+
+.contenedor{
+    background-color: rgb(182, 184, 197);
+    
+}
+.titleSearch{
+    color: white;
+}
+
+.rowSuperior{
+    
+    padding-left: 4rem;
+}
+
+.rowInferior{
+    background-color: rgb(182, 184, 197);
+    height: 100%;
+    padding-left: 4rem;
+}
+
+.colSearch{
+    border: 1px white solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.form-select{
+    width: 10rem;
+}
+
+.logoSearch{
+    color:white ;
+}
