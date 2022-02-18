@@ -1,0 +1,90 @@
+:root {
+  --blue: #0a123e;
+  --blue30: #0a123e62;
+  --white: #ffffff;
+  --white50: #ffffff85;
+  --green: #00be65;
+  --green70: #00be65b2;
+  --orange: #fa6f21;
+  --orange30: #fa71215b;
+}
+.navbar {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+.logoGreen {
+  color: var(--green);
+}
+
+.vlogo i {
+  font-size: 1.4rem;
+  color: var(--orange);
+  transform: rotate(316deg);
+}
+.vlogo {
+  font-weight: 800;
+}
+.logoBlue {
+  color: var(--blue);
+  font-weight: 700;
+}
+.logBlue,
+.regOrange {
+  padding: 0 1rem;
+  border-radius: 2rem;
+}
+.nav-link {
+  color: var(--white);
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.nav-link:hover {
+  color: var(--blue);
+}
+.logBlue {
+  background-color: var(--blue);
+}
+.regOrange {
+  background-color: var(--orange);
+}
+.logBlue:hover {
+  background-color: var(--blue30);
+}
+.regOrange:hover {
+  background-color: var(--orange30);
+}
+
+@media (max-width: 768px) {
+  .navbar-toggler-icon i{
+      font-size: 1.5rem;
+      color: var(--blue);
+  }
+  .vlogo i {
+    font-size: 1.2rem;
+  }
+  .logBlue,
+  .regOrange {
+    border-radius: 0;
+  }
+  .nav-link {
+    color: var(--blue);
+  }
+  .nav-link:hover {
+    color: var(--orange);
+  }
+  .logBlue,
+  .regOrange {
+    background-color: transparent;
+  }
+  .logBlue:hover,
+  .regOrange:hover {
+    background-color: transparent;
+  }
+}
+@media (max-width: 576px) {
+  .vlogo i {
+    font-size: 1rem;
+  }
+  .logoBlue {
+    display: none;
+  }
+}
